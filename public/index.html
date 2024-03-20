@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo and Shop List</title>
+    <script src="client.js" defer></script>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <form id="todoForm">
+        <label for="todoItem">New Todo Item:</label>
+        <input type="text" id="todoItem" name="item">
+        <input type="text" id="todoPriority" name="priority" placeholder="Priority">
+        <input type="text" id="todoCategory" name="category" placeholder="Category">
+        <button type="submit">Add Todo Item</button>
+    </form>
+    <button id="showTodoList">Show Todo List</button>
+    <ul id="todoList" style="display: none;"></ul>
+
+    <h1>Shop List</h1>
+    <form id="shopForm">
+        <label for="shopItem">New Shop Item:</label>
+        <input type="text" id="shopItem" name="item">
+        <input type="text" id="shopPriority" name="priority" placeholder="Priority">
+        <input type="text" id="shopCategory" name="category" placeholder="Category">
+        <button type="submit">Add Shop Item</button>
+    </form>
+    <button id="showShopList">Show Shop List</button>
+    <ul id="shopList" style="display: none;"></ul>
+</body>
+</html>
